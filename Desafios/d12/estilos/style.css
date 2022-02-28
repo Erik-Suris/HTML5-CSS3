@@ -21,11 +21,19 @@ a {
     text-decoration: none;
 }
 
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
 a:hover {
     text-decoration: underline;
 }
 
 header {
+    flex-shrink: 0;
+
     background-color: black;
 }
 
@@ -45,28 +53,19 @@ header p {
 main {
     font: 3.5vw var(--font3);
 }
+section
 
-section#s1 {
-    
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
 }
 
-section#s2 {
-    background-image: url(imagens/._);
-}
-
-section#s3 {
-    
-}
-
-section#s4 {
-    
-}
-
-section#s5 {
-
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer {
+    flex-shrink: 0;
+
     padding: 10px;
     background-color: black;
 
