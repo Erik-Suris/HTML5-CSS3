@@ -46,17 +46,38 @@ header h1 {
 }
 
 header p {
+    padding-bottom: 50px;
+
     color: white;
     font: 1em var(--font1);
+    text-align: center;
 }
 
 main {
     font: 3.5vw var(--font3);
 }
-section
+
+section {
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 section#img01 {
     background-image: url(../imagens/background001.jpg);
+    background-position: right center;
 }
 
 section#img02 {
