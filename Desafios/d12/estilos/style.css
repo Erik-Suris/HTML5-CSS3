@@ -1,15 +1,76 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-body {
-    
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header {
+    background-color: black;
+}
+
+header h1 {
+    padding-top: 50px;
+
+    color: white;
+    font: 10vw var(--font2);
+    text-align: center;
+}
+
+header p {
+    color: white;
+    font: 1em var(--font1);
+}
+
+main {
+    font: 3.5vw var(--font3);
+}
+
+section#s1 {
+    
+}
+
+section#s2 {
+    background-image: url(imagens/._);
+}
+
+section#s3 {
+    
+}
+
+section#s4 {
+    
+}
+
+section#s5 {
 
 }
 
 footer {
+    padding: 10px;
+    background-color: black;
 
+    color: white;
+    font: 1em var(--font1);
+    text-align: center;
 }
