@@ -13,12 +13,7 @@
 * {
     margin: 0px;
     padding: 0px;
-}
-
-a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
+    font-size: 1em;
 }
 
 body {
@@ -40,6 +35,7 @@ header h1 {
 
     color: white;
     font: 10vw var(--font2);
+    font-weight: bold;
     
     font-variant: small-caps;
     text-align: center;
@@ -53,12 +49,20 @@ header p {
     text-align: center;
 }
 
-main {
-    font: 3.5vw var(--font3);
+header a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 7.5vw;
+
     line-height: 2em;
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -84,6 +88,13 @@ section#img02 {
     background-image: url(../imagens/background002.jpg);
 }
 
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
 footer {
     padding: 10px;
     background-color: black;
@@ -91,4 +102,10 @@ footer {
     color: white;
     font: 1em var(--font1);
     text-align: center;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
 }
