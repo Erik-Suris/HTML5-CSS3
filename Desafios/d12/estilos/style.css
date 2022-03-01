@@ -19,7 +19,7 @@
 body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fonte1);
+    font-family: var(--font1);
 }
 
 a:hover {
@@ -45,7 +45,7 @@ header p {
     padding-bottom: 50px;
 
     color: white;
-    font: 1em var(--font1);
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ header a {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 7.5vw;
+    padding-left: 5vw;
 
     line-height: 2em;
     font-family: var(--font3);
@@ -100,7 +100,7 @@ footer {
     background-color: black;
 
     color: white;
-    font: 1em var(--font1);
+    font-size: 2vw;
     text-align: center;
 }
 
