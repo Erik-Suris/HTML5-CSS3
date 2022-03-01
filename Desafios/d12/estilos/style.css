@@ -32,8 +32,6 @@ a:hover {
 }
 
 header {
-    flex-shrink: 0;
-
     background-color: black;
 }
 
@@ -42,6 +40,8 @@ header h1 {
 
     color: white;
     font: 10vw var(--font2);
+    
+    font-variant: small-caps;
     text-align: center;
 }
 
@@ -85,8 +85,6 @@ section#img02 {
 }
 
 footer {
-    flex-shrink: 0;
-
     padding: 10px;
     background-color: black;
 
