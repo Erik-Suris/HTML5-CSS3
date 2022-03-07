@@ -16,21 +16,19 @@
     font-size: 1em;
 }
 
-body {
+html, body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 header {
     background-color: black;
+
+    color: white;
 }
 
-header h1 {
+header > h1 {
     padding-top: 50px;
 
     color: white;
@@ -41,7 +39,7 @@ header h1 {
     text-align: center;
 }
 
-header p {
+header > p {
     padding-bottom: 50px;
 
     color: white;
@@ -49,11 +47,16 @@ header p {
     text-align: center;
 }
 
-header a {
+a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 section {
     padding-top: 10vh;
@@ -63,6 +66,10 @@ section {
     line-height: 2em;
     font-family: var(--font3);
     font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal {
