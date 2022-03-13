@@ -20,12 +20,15 @@
             border: 1px solid black;
         }
 
-        thead {
+        caption {
+            padding: 10px;
             background-color: lightgray;
+            font: bold 1.5em Arial, Helvetica, sans-serif;
         }
 
-        tfoot {
-            background-color: lightgray;
+        thead, tfoot {
+            background-color: rgb(49, 49, 49);
+            color: white;
         }
 
         td.num {
@@ -46,11 +49,12 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>Unidades Federativas por População</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População (2021)</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População (2021)</th>
             </tr>
         </thead>
         <tbody>
@@ -108,7 +112,7 @@
         <tfoot>
             <tr>
                 <th>-</th>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">158 604 772</td>
             </tr>
         </tfoot>
