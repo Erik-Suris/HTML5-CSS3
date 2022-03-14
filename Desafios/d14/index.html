@@ -21,7 +21,7 @@
             padding: 10px;
         }
 
-        th.title {
+        tr.title {
             background-color: #414141;
             color: white;
         }
@@ -34,15 +34,15 @@
 <body>
     <table>
         <thead>
-            <tr>
-                <th class="title" rowspan="2">Área</th>
-                <th class="title" rowspan="2">Disciplinas</th>
-                <th class="title" colspan="2">Notas</th>
-                <th class="title" rowspan="2">Média</th>
+            <tr class="title">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
             </tr>
-            <tr>
-                <th class="title">Nota 1</th>
-                <th class="title">Nota 2</th>
+            <tr class="title">
+                <th>Nota 1</th>
+                <th>Nota 2</th>
             </tr>
         </thead>
         <tbody>
@@ -71,8 +71,8 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
-                <th class="title" colspan="4" scope="row">Média de Exatas</th>
+            <tr class="title">
+                <th colspan="4" scope="row">Média de Exatas</th>
                 <td>0.0</td>
             </tr>
             <tr>
@@ -88,8 +88,8 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
-                <th class="title" colspan="4" scope="row">Média de Humanas</th>
+            <tr class="title">
+                <th colspan="4" scope="row">Média de Humanas</th>
                 <td>0.0</td>
             </tr>
         </tbody>
